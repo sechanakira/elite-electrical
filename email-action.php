@@ -1,11 +1,11 @@
 <?php //ob_start();
 if(isset($_REQUEST['event']) && $_REQUEST['event']!=''){$event=$_REQUEST['event'];}else{$event='';}
-define('SITE_EMAIL', 'test@test.com');
+define('SITE_EMAIL', 'sechanakira@gmail.com');
  
     /* recipients */
     $to1= SITE_EMAIL;
     /* subject */
-    $subject1 = "Electrician&Repairing";
+    $subject1 = "Elite Electrical";
 
     /* message */
     $message_v1 = '<table width="100%" border="0" cellspacing="0" cellpadding="0">
